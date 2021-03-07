@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
-
 class App extends Component {
+
   render() {
     return (
       // <div className="App">
@@ -12,11 +12,16 @@ class App extends Component {
       //     </p>
       //   </header>
       // </div>
-
-      <div>
-        <header className = "heading">
-          <h1>Where the fuck is your wallet?</h1>
-        </header>
+      <div className="header">
+        <h1>Where the fuck is your wallet?</h1>
+        <div>
+          <button className = "adviceButtons">
+            Help me find this shit
+          </button>
+          <button className = "adviceButtons" >
+            I don't have a fucking wallet
+          </button>
+        </div>
       </div>
     );
   }
